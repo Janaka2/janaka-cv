@@ -1,176 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Janaka - CV</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-        .chip { @apply inline-block bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm font-medium mr-2 mb-2; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janaka - CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .chip { @apply inline-block bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm font-medium mr-2 mb-2; }
+  </style>
 </head>
 <body class="bg-gray-100 leading-relaxed text-gray-800">
-    <nav class="bg-white shadow sticky top-0 z-50">
-        <div class="max-w-4xl mx-auto flex justify-between items-center py-4 px-6">
-            <a href="#" class="text-lg font-semibold">Janaka</a>
-            <div class="space-x-4">
-                <a href="https://janaka.me" class="text-gray-600 hover:text-blue-600">Home</a>
-                <a href="https://blog.janaka.me" class="text-gray-600 hover:text-blue-600">Blog</a>
-                <a href="https://labs.janaka.me" class="text-gray-600 hover:text-blue-600">Labs</a>
-                <a href="https://cv.janaka.me" class="text-gray-600 hover:text-blue-600 font-semibold">CV</a>
-            </div>
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <div class="flex space-x-4 text-sm">
+        <a href="https://janaka.me" class="text-blue-600 font-semibold">Home</a>
+        <a href="https://blog.janaka.me" class="text-blue-600">Blog</a>
+        <a href="https://labs.janaka.me" class="text-blue-600">Labs</a>
+        <a href="https://ai.janaka.me" class="text-blue-600">AI / Agents</a>
+        <a href="#" class="text-blue-600 font-semibold border-b-2 border-blue-600">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-gradient-to-r from-blue-50 to-indigo-100 py-12 px-4">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+      <div class="flex flex-col justify-center">
+        <h1 class="text-4xl font-extrabold text-gray-900 mb-2">Janaka Premathilaka</h1>
+        <h2 class="text-2xl font-semibold text-blue-700 mb-4">Senior Full‑Stack Java Engineer</h2>
+        <p class="text-gray-700 mb-4">
+          I build rock‑solid enterprise Java systems and lead them into the AI era. With 21+ years delivering mission‑critical banking and public‑sector software, I’m known for calm, dependable execution. I steady teams, cut through noise, and get results—no shortcuts. I bridge proven enterprise tech with practical AI to create scalable solutions.
+        </p>
+        <p class="text-gray-700 mb-4">
+          Specialised in Java, Spring Boot, Oracle SQL and distributed systems, I’ve architected high‑throughput platforms and mentor teams across Sri Lanka, Belgium, Canada and Switzerland.
+        </p>
+        <div class="flex space-x-4">
+          <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-md font-medium hover:bg-blue-700 transition">Contact Me</a>
+          <button onclick="window.print()" class="bg-white border border-blue-600 text-blue-600 px-5 py-2 rounded-md font-medium hover:bg-blue-600 hover:text-white transition">Download PDF</button>
         </div>
-    </nav>
-    <header class="bg-gradient-to-r from-blue-50 to-indigo-50 py-12">
-        <div class="max-w-4xl mx-auto text-center">
-            <img src="https://janaka.me/assets/img/profile.jpg" alt="Profile photo" class="w-32 h-32 rounded-full mx-auto mb-4">
-            <h1 class="text-4xl font-bold mb-2">Janaka</h1>
-            <p class="text-xl text-gray-700 mb-4">Senior Full‑Stack Java & Agentic AI Engineer</p>
-            <p class="max-w-2xl mx-auto text-gray-600">Senior Full‑Stack Java/Spring engineer and Agentic AI specialist. Lead developer on high‑stakes production systems (UBS/CS) with calm incident response and strong problem‑solving skills.</p>
-            <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="#contact" class="px-6 py-3 bg-blue-600 text-white rounded-md shadow hover:bg-blue-700">Contact Me</a>
-                <button onclick="window.print()" class="px-6 py-3 border border-blue-600 text-blue-600 rounded-md shadow hover:bg-blue-50">Download CV</button>
-            </div>
+      </div>
+      <div class="relative">
+        <img src="https://janaka.me/assets/img/profile.jpg" alt="Janaka Premathilaka" class="rounded-full w-48 h-48 mx-auto shadow-lg">
+        <div class="mt-6 grid grid-cols-2 gap-4 text-center">
+          <div class="bg-white shadow rounded-lg p-4">
+            <div class="text-3xl font-bold text-blue-600">21+</div>
+            <div class="text-sm text-gray-600">Years Experience</div>
+          </div>
+          <div class="bg-white shadow rounded-lg p-4">
+            <div class="text-3xl font-bold text-blue-600">40+</div>
+            <div class="text-sm text-gray-600">Enterprise Projects</div>
+          </div>
+          <div class="bg-white shadow rounded-lg p-4">
+            <div class="text-3xl font-bold text-blue-600">99%</div>
+            <div class="text-sm text-gray-600">Success Rate</div>
+          </div>
+          <div class="bg-white shadow rounded-lg p-4">
+            <div class="text-3xl font-bold text-blue-600">30%</div>
+            <div class="text-sm text-gray-600">Avg Performance Gain</div>
+          </div>
         </div>
-    </header>
-    <main class="max-w-4xl mx-auto px-6 py-10 space-y-12">
-        <!-- Core Values -->
-        <section id="values">
-            <h2 class="text-3xl font-semibold mb-4">Core Values</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div class="p-4 bg-white rounded-lg shadow">
-                    <h3 class="text-xl font-semibold mb-2">Innovation</h3>
-                    <p class="text-gray-600">Always exploring new technologies and creative approaches to solve complex problems.</p>
-                </div>
-                <div class="p-4 bg-white rounded-lg shadow">
-                    <h3 class="text-xl font-semibold mb-2">Collaboration</h3>
-                    <p class="text-gray-600">Building strong teams and partnerships through effective communication and cooperation.</p>
-                </div>
-                <div class="p-4 bg-white rounded-lg shadow">
-                    <h3 class="text-xl font-semibold mb-2">Reliability</h3>
-                    <p class="text-gray-600">Delivering stable, scalable systems with a focus on security, performance, and reliability.</p>
-                </div>
-                <div class="p-4 bg-white rounded-lg shadow">
-                    <h3 class="text-xl font-semibold mb-2">Continuous Learning</h3>
-                    <p class="text-gray-600">Committed to lifelong learning to stay ahead of industry trends and drive innovation.</p>
-                </div>
-                <div class="p-4 bg-white rounded-lg shadow">
-                    <h3 class="text-xl font-semibold mb-2">Results</h3>
-                    <p class="text-gray-600">Focused on delivering measurable outcomes that create value for customers and stakeholders.</p>
-                </div>
-            </div>
-        </section>
-        <!-- Summary -->
-        <section id="summary">
-            <h2 class="text-3xl font-semibold mb-4">Summary</h2>
-            <p class="text-gray-700">I am a results‑driven Senior Full‑Stack Engineer with over a decade of experience crafting scalable, resilient applications using Java, Spring, and modern JavaScript frameworks. My passion lies in architecting systems that combine traditional back‑end craftsmanship with the power of Agentic AI. At UBS/Credit Suisse, I lead development of mission‑critical services, ensuring seamless operations and rapid incident response. I thrive in collaborative environments and constantly seek innovative approaches to deliver business value.</p>
-        </section>
-        <!-- Experience -->
-        <section id="experience">
-            <h2 class="text-3xl font-semibold mb-4">Experience</h2>
-            <div class="space-y-6">
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-semibold">Sr. Full‑Stack Solution Engineer — UBS (via Cognizant)</h3>
-                    <p class="text-gray-500">Zurich, Switzerland · 2022–Present</p>
-                    <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
-                        <li>Maintain six high‑stakes production applications with zero major escalations.</li>
-                        <li>Resolve PI/P2 incidents using root‑cause analysis and preventative playbooks.</li>
-                        <li>Develop a custom Master Data Management (MDM) tool with dynamic consumer endpoints, analytics, and self‑service capabilities.</li>
-                    </ul>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-semibold">Full‑Stack Java Engineer — RBC</h3>
-                    <p class="text-gray-500">Toronto, Canada · 2019–2022</p>
-                    <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
-                        <li>Designed and implemented microservices architecture for the wealth management platform.</li>
-                        <li>Introduced Kafka-based event streaming and GraphQL API, reducing latency by 30%.</li>
-                        <li>Mentored junior developers and fostered a culture of clean code and automated testing.</li>
-                    </ul>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-semibold">Software Developer — ABC Tech (Freelance)</h3>
-                    <p class="text-gray-500">Global · 2016–2019</p>
-                    <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
-                        <li>Built full‑stack web applications for clients across finance, healthcare, and e‑commerce sectors.</li>
-                        <li>Developed internal tools and libraries to accelerate project delivery and ensure consistent quality.</li>
-                        <li>Collaborated directly with stakeholders to translate business requirements into technical solutions.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <!-- Skills -->
-        <section id="skills">
-            <h2 class="text-3xl font-semibold mb-4">Skills</h2>
-            <div class="flex flex-wrap">
-                <span class="chip">Java 17</span>
-                <span class="chip">Spring Boot 3</span>
-                <span class="chip">Kafka</span>
-                <span class="chip">GraphQL</span>
-                <span class="chip">Docker & Kubernetes</span>
-                <span class="chip">gRPC</span>
-                <span class="chip">OpenAI SDK</span>
-                <span class="chip">RAG, FAISS, Guardrails</span>
-                <span class="chip">CI/CD</span>
-                <span class="chip">AWS & Azure</span>
-                <span class="chip">React & Next.js</span>
-                <span class="chip">Oracle SQL</span>
-            </div>
-        </section>
-        <!-- Projects -->
-        <section id="projects">
-            <h2 class="text-3xl font-semibold mb-4">Projects</h2>
-            <div class="space-y-6">
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-semibold"><a href="https://labs.janaka.me" class="text-blue-600 hover:underline">RAG‑Powered Chatbot</a></h3>
-                    <p class="mt-2 text-gray-700">An intelligent chatbot that leverages Retrieval‑Augmented Generation (RAG) with vector embeddings to provide contextual answers, implementing sources re‑rank and referencing documents.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-semibold"><a href="https://labs.janaka.me/job-research-agent" class="text-blue-600 hover:underline">Job‑Research Agent</a></h3>
-                    <p class="mt-2 text-gray-700">Automates job market research by crawling listings, summarizing requirements, and matching your skills to the most suitable roles using AI agents.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-semibold"><a href="https://blog.janaka.me" class="text-blue-600 hover:underline">Technical Blog</a></h3>
-                    <p class="mt-2 text-gray-700">A blog where I share in‑depth tutorials and insights on Java, Spring Boot, AI, and productivity for developers. Read to learn my perspective on the latest technologies.</p>
-                </div>
-            </div>
-        </section>
-        <!-- Education & Certifications -->
-        <section id="education">
-            <h2 class="text-3xl font-semibold mb-4">Education & Certifications</h2>
-            <div class="space-y-6">
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-semibold">BSc in Computer Science</h3>
-                    <p class="text-gray-500">University of Moratuwa · 2012–2015</p>
-                    <p class="mt-2 text-gray-700">Graduated with honors, focusing on software engineering, algorithms, and distributed systems.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-semibold">Certified Kubernetes Administrator (CKA)</h3>
-                    <p class="text-gray-500">The Linux Foundation · 2024</p>
-                    <p class="mt-2 text-gray-700">Demonstrated expertise in managing containerized applications using Kubernetes and CI/CD pipelines.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-semibold">AWS Solutions Architect Associate</h3>
-                    <p class="text-gray-500">Amazon Web Services · 2023</p>
-                    <p class="mt-2 text-gray-700">Proven knowledge in designing scalable, secure, and cost‑optimized cloud architecture.</p>
-                </div>
-            </div>
-        </section>
-        <!-- Contact -->
-        <section id="contact" class="bg-gray-50 p-6 rounded-lg shadow">
-            <h2 class="text-3xl font-semibold mb-4">Contact</h2>
-            <div class="space-y-2 text-gray-700">
-                <p><strong>Email:</strong> <a href="mailto:hello@janaka.me" class="text-blue-600 hover:underline">hello@janaka.me</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/janakadev" class="text-blue-600 hover:underline">linkedin.com/in/janakadev</a></p>
-                <p><strong>GitHub:</strong> <a href="https://github.com/Janaka2" class="text-blue-600 hover:underline">@Janaka2</a></p>
-                <p><strong>Location:</strong> Dietikon, Zurich, Switzerland</p>
-            </div>
-        </section>
-    </main>
-    <footer class="py-6 text-center text-gray-500">
-        <p>&copy; 2025 Janaka. Built with ❤️ and a passion for technology.</p>
-    </footer>
+      </div>
+    </div>
+  </header>
+
+  <section id="values" class="bg-white py-12 px-4">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">Core Values</h3>
+      <p class="text-gray-600 mb-8">These principles guide my work and leadership.</p>
+      <div class="grid md:grid-cols-5 gap-4">
+        <div class="bg-gray-50 rounded-lg p-4 shadow">
+          <h4 class="font-bold text-blue-700 mb-2">Innovation</h4>
+          <p class="text-sm text-gray-600">Driving new ideas from LLMs, LangGraph & RAG to streamline solutions.</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-4 shadow">
+          <h4 class="font-bold text-blue-700 mb-2">Collaboration</h4>
+          <p class="text-sm text-gray-600">Mentoring teams, aligning stakeholders, and fostering a culture of trust.</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-4 shadow">
+          <h4 class="font-bold text-blue-700 mb-2">Reliability</h4>
+          <p class="text-sm text-gray-600">Delivering resilient systems with uptime, stability and clear accountability.</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-4 shadow">
+          <h4 class="font-bold text-blue-700 mb-2">Continuous Learning</h4>
+          <p class="text-sm text-gray-600">Always evolving with the latest in AI, cloud, and software practices.</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-4 shadow">
+          <h4 class="font-bold text-blue-700 mb-2">Results</h4>
+          <p class="text-sm text-gray-600">Solving real problems, improving performance and achieving measurable impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="bg-gray-100 py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-4">About Me</h3>
+      <p class="text-gray-700 mb-4">
+        After earning my BSc in Computer Science in Sri Lanka, I began my career building enterprise software in Colombo. Over the next two decades I delivered critical systems across Europe and North America—creating e-procurement solutions for the European Commission in Belgium, architecting wealth-management platforms in Canada, and leading mission‑critical teams through the UBS–Credit Suisse merger in Switzerland.
+      </p>
+      <p class="text-gray-700 mb-4">
+        My passion lies in designing scalable architectures with Java, Spring Boot and Oracle SQL, while exploring the frontier of AI and automation with LangChain, RAG, OpenAI, LangGraph and Kafka. I'm a hands-on leader who mentors teams, simplifies complexity, and transforms ideas into high-impact solutions.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience" class="bg-white py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-6">Experience</h3>
+      <div class="mb-8">
+        <h4 class="text-xl font-bold text-blue-700">UBS / Credit Suisse</h4>
+        <p class="font-medium text-gray-700 mb-1">Sr. Full‑Stack Solution Engineer</p>
+        <p class="text-sm text-gray-500 mb-2">Jan 2018 – Present, Zurich, Switzerland</p>
+        <ul class="list-disc pl-5 text-gray-700 space-y-1">
+          <li>Led delivery of six enterprise applications during the UBS–Credit Suisse merger, ensuring zero major incidents.</li>
+          <li>Built a high‑performance Master Data Management platform from scratch to unify consumer data across global systems.</li>
+          <li>Developed dynamic consumer portals and case‑management tools with real‑time streaming using Kafka and GraphQL.</li>
+          <li>Introduced RAG‑powered intranet search and data‑analysis services with LangGraph & AutoGen, increasing productivity.</li>
+          <li>Maintained calm leadership under pressure, resolving critical incidents and guiding teams through complex migrations.</li>
+        </ul>
+        <div class="mt-2 space-x-2">
+          <span class="chip">Java 17</span><span class="chip">Spring Boot</span><span class="chip">Oracle SQL</span><span class="chip">Kafka</span><span class="chip">GraphQL</span><span class="chip">LangChain</span><span class="chip">LangGraph</span>
+        </div>
+      </div>
+      <div class="mb-8">
+        <h4 class="text-xl font-bold text-blue-700">RBC – Royal Bank of Canada</h4>
+        <p class="font-medium text-gray-700 mb-1">Full‑Stack Java Engineer</p>
+        <p class="text-sm text-gray-500 mb-2">Jan 2013 – Jan 2018, Toronto, Canada</p>
+        <ul class="list-disc pl-5 text-gray-700 space-y-1">
+          <li>Architected a microservices platform for wealth‑management, reducing latency by <strong>45%</strong> for 3k+ daily users.</li>
+          <li>Designed high‑throughput event streaming pipelines with Kafka and GraphQL to power real‑time analytics.</li>
+          <li>Implemented RESTful APIs and responsive UI using React and Spring, improving user engagement and scalability.</li>
+          <li>Mentored a cross‑functional team, established coding standards and streamlined CI/CD with Jenkins.</li>
+        </ul>
+        <div class="mt-2 space-x-2">
+          <span class="chip">Java 17</span><span class="chip">Spring Boot</span><span class="chip">React</span><span class="chip">Kafka</span><span class="chip">GraphQL</span><span class="chip">Jenkins</span><span class="chip">Docker</span>
+        </div>
+      </div>
+      <div class="mb-8">
+        <h4 class="text-xl font-bold text-blue-700">European Commission</h4>
+        <p class="font-medium text-gray-700 mb-1">Sr. Full‑Stack Java/JEE Developer</p>
+        <p class="text-sm text-gray-500 mb-2">Feb 2007 – Jan 2013, Brussels, Belgium</p>
+        <ul class="list-disc pl-5 text-gray-700 space-y-1">
+          <li>Provided functional and technical support for a pan‑European e‑procurement system.</li>
+          <li>Developed microservices and integration patterns using JEE, SOAP/REST and enterprise messaging.</li>
+          <li>Implemented JBPM workflows for complex procurement processes, improving process efficiency.</li>
+          <li>Collaborated with cross‑border teams to ensure compliance with EU procurement standards.</li>
+        </ul>
+        <div class="mt-2 space-x-2">
+          <span class="chip">Java EE</span><span class="chip">Angular</span><span class="chip">JBPM</span><span class="chip">SOA</span><span class="chip">Oracle SQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="bg-gray-100 py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-6">Skills & Tech Stack</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div>
+          <h4 class="font-semibold text-blue-700 mb-2">Languages & Back‑End</h4>
+          <p class="text-gray-700 mb-2">Java 17, Spring Boot, Spring Cloud, JPA/Hibernate, Node.js, GraphQL.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-blue-700 mb-2">Front‑End & UI</h4>
+          <p class="text-gray-700 mb-2">React, Angular, TypeScript, Tailwind CSS, HTML5, CSS3.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-blue-700 mb-2">Databases & Cloud</h4>
+          <p class="text-gray-700 mb-2">Oracle SQL, PostgreSQL, MongoDB, AWS, Azure, GCP.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-blue-700 mb-2">DevOps & Infrastructure</h4>
+          <p class="text-gray-700 mb-2">Docker, Kubernetes, Jenkins, GitHub Actions, Terraform, CI/CD.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-blue-700 mb-2">AI & Data</h4>
+          <p class="text-gray-700 mb-2">LLMs & RAG, LangChain, LangGraph, AutoGen, OpenAI SDK, Kafka, Apache Spark.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-blue-700 mb-2">Soft Skills</h4>
+          <p class="text-gray-700 mb-2">Leadership, mentoring, architecture design, problem solving, stakeholder communication.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-white py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-6">Projects & Case Studies</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-gray-50 rounded-lg p-6 shadow">
+          <h4 class="font-semibold text-blue-700 mb-2">RAG‑Powered Chatbot</h4>
+          <p class="text-gray-700 mb-2">Designed a retrieval‑augmented chatbot that leverages LangGraph and vector databases to deliver context‑aware answers in enterprise environments.</p>
+          <p class="text-gray-600 mb-2 text-sm">Role: Architect & Developer</p>
+          <p class="text-gray-600 text-sm mb-3">Tech: Python, LangChain, LangGraph, FAISS, React.</p>
+          <a href="https://github.com/Janaka2/RAG-Powered-Chatbot" class="text-blue-600 text-sm underline">View Code</a>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-6 shadow">
+          <h4 class="font-semibold text-blue-700 mb-2">Job Research Agent</h4>
+          <p class="text-gray-700 mb-2">Built an AI agent that automates job research, summarises postings and matches requirements using LLMs and data analysis.</p>
+          <p class="text-gray-600 mb-2 text-sm">Role: Developer</p>
+          <p class="text-gray-600 text-sm mb-3">Tech: Python, LangChain, GPT‑4, Puppeteer.</p>
+          <a href="https://github.com/Janaka2/job-research-agent" class="text-blue-600 text-sm underline">View Code</a>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-6 shadow">
+          <h4 class="font-semibold text-blue-700 mb-2">Real‑Time Data Streaming & Analytics</h4>
+          <p class="text-gray-700 mb-2">Implemented a streaming analytics platform using Kafka, Spark and React dashboards for live insights.</p>
+          <p class="text-gray-600 mb-2 text-sm">Role: Solution Architect</p>
+          <p class="text-gray-600 text-sm mb-3">Tech: Java, Kafka, Apache Spark, React, Grafana.</p>
+          <a href="https://github.com/Janaka2/Real-time-Data-Streaming-and-Analytics" class="text-blue-600 text-sm underline">View Code</a>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-6 shadow">
+          <h4 class="font-semibold text-blue-700 mb-2">DevOps CI/CD Pipeline</h4>
+          <p class="text-gray-700 mb-2">Created an automated CI/CD pipeline for microservices using Jenkins, Docker and Kubernetes to enable seamless deployments.</p>
+          <p class="text-gray-600 mb-2 text-sm">Role: DevOps Engineer</p>
+          <p class="text-gray-600 text-sm mb-3">Tech: Jenkins, Docker, Kubernetes, Helm.</p>
+          <a href="https://github.com/Janaka2/DevOps-CI-CD-Pipeline-Project" class="text-blue-600 text-sm underline">View Code</a>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-6 shadow">
+          <h4 class="font-semibold text-blue-700 mb-2">Technical Blog & Writing</h4>
+          <p class="text-gray-700 mb-2">Share deep dives into Java, Spring Boot, AI & microservices on my blog, demystifying complex topics.</p>
+          <p class="text-gray-600 mb-2 text-sm">Role: Author</p>
+          <p class="text-gray-600 text-sm mb-3">Tech: Hugo, Markdown, Netlify.</p>
+          <a href="https://blog.janaka.me" class="text-blue-600 text-sm underline">Read Blog</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="bg-gray-100 py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-6">Education & Certifications</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-lg p-6 shadow">
+          <h4 class="font-semibold text-blue-700 mb-2">BSc Computer Science</h4>
+          <p class="text-gray-700 mb-1">University of Sri Jayewardenepura</p>
+          <p class="text-sm text-gray-500 mb-3">1999 – 2003</p>
+          <p class="text-gray-700 text-sm">Major in Computer Science with minors in Statistics and Mathematics.</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow">
+          <h4 class="font-semibold text-blue-700 mb-2">Master’s in Computer Engineering</h4>
+          <p class="text-gray-700 mb-1">University of Moratuwa</p>
+          <p class="text-sm text-gray-500 mb-3">2007 – Present (In progress)</p>
+          <p class="text-gray-700 text-sm">Researching distributed systems and AI integration.</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow">
+          <h4 class="font-semibold text-blue-700 mb-2">Agentic AI Engineering (2025)</h4>
+          <p class="text-gray-700 text-sm mb-1">Complete Agentic AI Engineering Course</p>
+          <p class="text-sm text-gray-500 mb-3">2025</p>
+          <p class="text-gray-700 text-sm">Comprehensive course on building AI agents with LLMs and RAG techniques.</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow">
+          <h4 class="font-semibold text-blue-700 mb-2">Certifications & Awards</h4>
+          <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1">
+            <li>CKA – Certified Kubernetes Administrator (2024)</li>
+            <li>AWS Solutions Architect Associate (2023)</li>
+            <li>Sun Java Certifications (SCJP, SCBCD, SCEA1)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-white py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-4">Get in Touch</h3>
+      <p class="text-gray-700 mb-6">Interested in working together or learning more? Feel free to reach out.</p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="flex items-center space-x-4">
+          <div>
+            <p class="font-medium text-gray-800">Email</p>
+            <a href="mailto:janaka2@gmail.com" class="text-blue-600">janaka2@gmail.com</a>
+          </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <div>
+            <p class="font-medium text-gray-800">LinkedIn</p>
+            <a href="https://www.linkedin.com/in/janakapremathilaka" class="text-blue-600">linkedin.com/in/janakapremathilaka</a>
+          </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <div>
+            <p class="font-medium text-gray-800">GitHub</p>
+            <a href="https://github.com/Janaka2" class="text-blue-600">github.com/Janaka2</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-gray-400 py-4">
+    <div class="max-w-6xl mx-auto text-center text-sm">
+      © 2025 Janaka Premathilaka. Built with ♥ and Tailwind CSS. Last updated October 2025.
+    </div>
+  </footer>
 </body>
 </html>
